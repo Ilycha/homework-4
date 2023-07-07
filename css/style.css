@@ -278,7 +278,7 @@ header{
 }
 .team-card{
   padding: 30px 10px;
-
+box-shadow: var(--shadow-for-box);
 }
 
 .team-picture{
