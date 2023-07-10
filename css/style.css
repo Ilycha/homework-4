@@ -160,7 +160,7 @@ header{
 } 
 
 .accent {
-  background-color: #2f303a;
+  /* background-color: #2f303a; */
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -168,8 +168,23 @@ header{
   text-align: center;
   padding: 200px 0; 
 }
+.accent{
+  
 
-.section .accent {
+  background-image: linear-gradient( to right,
+  rgba(47, 48, 58, 0.40),
+  rgba(47, 48, 58, 0.40)),
+  url(../images/Img-hero.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1600px;
+  height: 600px;
+  margin: 0 auto;
+  background-position: center;
+}
+
+.section .title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -457,4 +472,8 @@ ul,li{
 
 .linc {
   text-decoration: none;
+}
+
+.photo-list:hover {
+  box-shadow: var(--shadow-for-box);
 }
