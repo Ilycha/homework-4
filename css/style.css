@@ -134,20 +134,27 @@ header{
   margin-right :50px; 
 } */
 
-/* оформление размеров шапки */
+/* оформление размеров контейнера */
 .container {
   margin: 0 auto;
   padding: 0 15px;
   width: 1200px;
   /* outline: 3px solid gray; */
+  
+}
+/* классы для иконок наши преимущества */
+
+.icon-advantages{
+  width: 270px;
+  height: 120px;
+ background-color: #F5F4FA;
+ border-radius: 4px;
+ margin:0 0 50px 0;
+  
 }
 
+
 /* герой */
-
-
-
-
-
 
 .section-title {
   font-weight: 700;
