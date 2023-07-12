@@ -139,9 +139,7 @@ header {
 .item :hover {
   fill: #2196f3;
 }
-/* .icon-contacts :hover{
-  fill: #2196f3;
-} */
+
 /* Альтернатива */
 /* .site-nav .item:not(:last-child) {
   margin-right :50px; 
@@ -290,6 +288,45 @@ header {
 .advantages-list > li:nth-last-child(4n + 1) {
   margin-right: 0;
 }
+
+/* команда */
+
+.sotial {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+.sotial-linc {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  fill: #afb1b8;
+}
+/* .sotial-linc :hover{
+fill: #fff;
+} */
+
+.sotial-list {
+  width: 44px;
+  height: 44px;
+  border: 1px solid #938c8c;
+  border-radius: 50%;
+  background-color: #e3f2e0;
+  margin: 0 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .sotial-list:hover{
+ background-color: #2196f3;
+
+}
+.sotial-linc:hover{
+  fill:#f5f4fa
+} */
+
 .section-team {
   background-color: #f5f4fa;
   padding-top: 94px;
@@ -334,7 +371,6 @@ header {
 .list-clients {
   margin: 0 -15px;
   display: flex;
-  
 }
 
 .our-clients > a {
@@ -349,22 +385,17 @@ header {
 
   width: 170px;
   height: 92px;
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 
-.list-clients :hover{
-fill: #2196f3;
+.list-clients :hover {
+  fill: #2196f3;
 }
-
-
 
 .clients-linc {
   width: 106px;
   height: 60px;
-  
 }
-
-
 
 /* подвал */
 
