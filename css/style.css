@@ -150,7 +150,7 @@ header {
   margin: 0 auto;
   padding: 0 15px;
   width: 1200px;
-  outline: 3px solid gray;
+  /* outline: 3px solid gray; */
 }
 /* классы для иконок наши преимущества */
 
@@ -308,11 +308,11 @@ header {
   height: 20px;
   
 }
-.sotial-list{
+.sotial-list > a{
       width: 40px;
     height: 40px;
     border-radius: 50%;
-    margin: 5px;
+    margin: 0 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -322,7 +322,7 @@ header {
 
 
 
-.sotial-list:hover{
+.sotial-list:hover a{
   fill: #f5f4fa;
   background-color: #2196f3;
 }
@@ -425,6 +425,8 @@ header {
 
 .adress {
   font-style: normal;
+  display: flex;
+  align-items: baseline;
 }
 .adress-footer {
   display: block;
@@ -444,13 +446,23 @@ header {
 .adress .tel-footer:hover {
   color: #ffffff;
 }
-.sotial-futer{
-    margin: 0;
- display:block;
- 
-}
-.title-welcome{
+
+.adress-thumb{
+  width: 231px;
   margin: 0;
+
+}
+.thumb-list{
+  display: flex;
+      margin: 0 -5px;
+}
+.sotial-futer{
+   margin: 0 0 0 70px;
+   
+}
+
+.title-welcome{
+  margin: 0 0 20px 0;
   color: #FFF;
 font-family: Roboto;
 font-size: 14px;
@@ -460,6 +472,33 @@ line-height: normal;
 letter-spacing: 0.42px;
 text-transform: uppercase;
 }
+
+/* .sotial-linc{
+   width: 20px;
+  height: 20px;
+  
+} */
+.welcome-list > a {
+      width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #ffffff;
+    background-color:#43444d;
+}
+
+
+
+
+.welcome-list:hover a{
+  fill: #f5f4fa;
+  background-color: #2196f3;
+}
+
+
 
 /* СТИЛИ ДЛЯ СТРАНИЦЫ ПОРТФОЛИО */
 
