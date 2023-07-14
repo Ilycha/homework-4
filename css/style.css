@@ -473,11 +473,7 @@ letter-spacing: 0.42px;
 text-transform: uppercase;
 }
 
-/* .sotial-linc{
-   width: 20px;
-  height: 20px;
-  
-} */
+
 .welcome-list > a {
       width: 40px;
     height: 40px;
@@ -493,7 +489,7 @@ text-transform: uppercase;
 
 
 
-.welcome-list:hover a{
+.welcome-list :hover  {
   fill: #f5f4fa;
   background-color: #2196f3;
 }
