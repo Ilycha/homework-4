@@ -159,7 +159,7 @@ header {
   height: 120px;
   background-color: #f5f4fa;
   border-radius: 4px;
-  margin: 0 0 50px 0;
+  margin: 0 0 30px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -290,16 +290,13 @@ header {
 }
 
 /* команда */
-.sotial-thumb {
-  margin: 16px 0 0 0;
-  display: flex;
-  justify-content: center;
-}
 
 .sotial {
   display: flex;
   justify-content: center;
+  margin-top: 16px;
 }
+
 .sotial-linc {
   width: 20px;
   height: 20px;
