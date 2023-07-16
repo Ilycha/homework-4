@@ -598,7 +598,7 @@ li {
 
 
 .filtr-work:hover,
-.filtr-work:hover {
+.filtr-work:focus {
   box-shadow: var(--shadow-for-box);
  
 }
