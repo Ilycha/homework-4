@@ -377,10 +377,13 @@ header {
   height: 92px;
   fill: #afb1b8;
 }
-
-.list-clients :hover {
-  fill: #2196f3;
+.list-clients :hover,
+.list-clients :focus{
+    border-color:#2196f3;
+    fill: #2196f3;
 }
+
+
 
 .clients-linc {
   width: 106px;
@@ -409,14 +412,19 @@ header {
 
   margin-bottom: 28px;
 }
+.main-footer{
+  display: flex;
+  align-items: baseline;
+  font-style: normal;
+}
 
 .adress {
   font-style: normal;
-  display: flex;
-  align-items: baseline;
+ 
 }
 .adress-footer {
   display: block;
+ 
 }
 .adress .adress-footer,
 .adress .tel-footer {
@@ -433,10 +441,15 @@ header {
 .adress .tel-footer:hover {
   color: #ffffff;
 }
+.adress .adress-footer:focus,
+.adress .tel-footer:focus {
+  color: #ffffff;
+}
 
 .adress-thumb {
   width: 231px;
   margin: 0;
+   
 }
 .thumb-list {
   display: flex;
@@ -511,10 +524,15 @@ li {
 .button:hover {
   background-color: var(--button-background-hover);
   color: #ffffff;
+  box-shadow: var(--shadow-for-box);
 }
-.button:active {
+.button:focus {
   background-color: var(--button-background-hover);
+  color: #ffffff;
+  box-shadow: var(--shadow-for-box);
 }
+
+
 
 .portfolio {
   padding-top: 94px;
@@ -575,8 +593,14 @@ li {
 
 .linc {
   text-decoration: none;
+  display: block;
 }
 
-.photo-list:hover {
+
+.filtr-work:hover,
+.filtr-work:hover {
   box-shadow: var(--shadow-for-box);
+ 
 }
+
+
