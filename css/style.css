@@ -96,6 +96,11 @@ header {
 .contact-list .tel:hover {
   color: var(--link-color);
 }
+.contact-list .linc:focus,
+.contact-list .tel:focus {
+  color: var(--link-color);
+}
+
 .site-nav .linc.current {
   color: var(--link-color);
   text-decoration: none;
@@ -136,7 +141,8 @@ header {
 .icon-contacts {
   margin-right: 10px;
 }
-.item :hover {
+.item :hover,
+.item :focus {
   fill: #2196f3;
 }
 
@@ -294,7 +300,8 @@ header {
 .sotial {
   display: flex;
   justify-content: center;
-  margin: 16px -5px 0 -5px ;
+  margin-top: 16px ;
+  gap:10px
 }
 
 .sotial-linc {
@@ -305,8 +312,6 @@ header {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  margin: 0 5px;
-
 }
 
 .sotial-comand{
@@ -372,18 +377,9 @@ header {
 .list-clients {
   display: flex;
   flex-wrap: wrap;
-  margin-top: -50px;
+  gap:30px
 }
 
-.our-clients{
-  margin-top: 50px;
- margin-left:30px;
- 
-}
-
-.our-clients:nth-child(6n+1){
-  margin-left: 0;
-}
 
 
 .for-linc{
@@ -475,7 +471,7 @@ header {
 }
 .thumb-list {
   display: flex;
-  margin: 0 -5px;
+  gap:10px
 }
 .sotial-futer {
   margin: 0 0 0 70px;
@@ -503,9 +499,6 @@ header {
   fill: #ffffff;
   background-color: rgba(255, 255, 255, 0.1);
 
-}
-.welcome-list {
-margin:0 5px;
 }
 
 
